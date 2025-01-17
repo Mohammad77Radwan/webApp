@@ -25,12 +25,6 @@ st.markdown(
     "- Maintenance des solutions logicielles"
 )
 
-st.image(
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Python_logo_notext.svg/2048px-Python_logo_notext.svg.png",
-    caption="Exemple d'outil utilisé en SLAM : Python",
-    width=300,
-)
-
 # Section quiz interactif
 st.header("Quiz : Êtes-vous fait pour l'option SLAM ?")
 st.write("Répondez aux questions ci-dessous pour découvrir votre affinité avec l'option SLAM !")
