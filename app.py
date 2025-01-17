@@ -75,10 +75,10 @@ if st.button("Voir les résultats"):
 
 # QR Code
 st.header("Ressource complémentaire")
-st.write("Scannez ce QR code pour accéder à des exemples de projets réalisés en SLAM !")
+st.write("Scannez ce QR code pour savoire plus sur l'option SLAM !")
 
-qr_data = "https://www.example.com/projets-slam"
+qr_data = "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers"
 qr_code = generate_qr_code(qr_data)
 st.image(qr_code, caption="Scannez-moi !", width=200)
 
-st.write("[Cliquez ici si vous ne pouvez pas scanner le QR code.](https://www.example.com/projets-slam)")
+st.write("[Cliquez ici si vous ne pouvez pas scanner le QR code.](https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers)")
